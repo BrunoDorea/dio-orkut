@@ -1,0 +1,102 @@
+:root {
+  --background-color: rgb(240, 199, 234);
+  --pink: #e8258e;
+  --grey: #1a1a1a;
+  --grey2: #2c2c2c;
+
+  background-color: var(--background-color);
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+} 
+
+.container {
+  width: 80%;
+  height: 70vh;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 5%;
+  max-width: 450px;
+  
+  box-shadow: 10px 9px 24px 3px rgba(65, 60, 60, 0.702);
+  -webkit-box-shadow: 10px 9px 24px 3px rgba(65,60,60,0.7);
+  -moz-box-shadow: 10px 9px 24px 3px rgba(65,60,60,0.7);
+}
+
+.fields {
+  margin: 5% 10%;
+}
+
+.fields__title {
+  display: flex;
+  justify-content: center;
+}
+
+.pink-font {
+  color: var(--pink);
+}
+
+#field__title {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--grey);
+  margin-top: 20px;
+  margin-bottom: 5%;
+}
+
+.fields__textboxs {
+  height: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fields__textboxs > input {
+  height: 40px;
+  border: 1px solid silver;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+.fields__remember {
+  margin-bottom: 20px;
+}
+
+#btnlogin {
+  width: 100%;
+  border: none;
+  background-color: var(--pink);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.fields__recovery > a, .fields__create > a {
+  text-decoration: none;
+  color: var(--grey2);
+}
+
+.fields__recovery {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.fields__create {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logo > img {
+  height: 70px;
+}

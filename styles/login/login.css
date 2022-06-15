@@ -1,13 +1,3 @@
-:root {
-  --background-color: rgb(240, 199, 234);
-  --pink: #e8258e;
-  --grey: #1a1a1a;
-  --grey2: #2c2c2c;
-
-  background-color: var(--background-color);
-  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
-} 
-
 .container {
   width: 80%;
   height: 70vh;
@@ -15,8 +5,7 @@
   border-radius: 20px;
   margin: auto;
   margin-top: 5%;
-  max-width: 450px;
-  
+  max-width: 500px;
   box-shadow: 10px 9px 24px 3px rgba(65, 60, 60, 0.702);
   -webkit-box-shadow: 10px 9px 24px 3px rgba(65,60,60,0.7);
   -moz-box-shadow: 10px 9px 24px 3px rgba(65,60,60,0.7);
@@ -31,10 +20,6 @@
   justify-content: center;
 }
 
-.pink-font {
-  color: var(--pink);
-}
-
 #field__title {
   font-size: 15px;
   font-weight: bold;
@@ -45,7 +30,6 @@
 
 .fields__textboxs {
   height: 100px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -65,12 +49,10 @@
 #btnlogin {
   width: 100%;
   border: none;
-  background-color: var(--pink);
   color: white;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;
-  cursor: pointer;
 }
 
 .fields__recovery > a, .fields__create > a {
@@ -89,6 +71,7 @@
   display: flex;
   justify-content: center;
   font-weight: bold;
+  margin-top: 60px;
 }
 
 .logo {

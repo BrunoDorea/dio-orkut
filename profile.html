@@ -1,62 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/global.css">
-  <link rel="stylesheet" href="./styles/reset.css">
-  <link rel="stylesheet" href="./styles/profile/profile.css">
-  <link rel="stylesheet" href="./styles/profile/profile-responsive.css">
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-  <script src="https://kit.fontawesome.com/8b55e05e5f.js" crossorigin="anonymous"></script>
-  <title>orkut | Profile</title>
-</head>
-<body>
-  <header class="menu orkut-button-bg">
-    <nav>
-      <div id="title">
-        <h1>orkut</h1>
-      </div>
-      <div id="hamburguer">
-        <label for="">&#9776;</label>
-      </div>
-    </nav>
-  </header>
-  <main class="container">
-    <aside class="photo">
-      <div class="photo__avatar">
-        <img src="./images/avatar.jpg" alt="avatar" srcset="" height="250px" width="250px">
-      </div>
-      <div class="photo__name">
-        <h1 class="orkut-font-color">Bruno Henrique</h1>
-      </div>
-      <div class="photo__tools">
-        <div class="photo__tools__messages">
-          <i class="fa-solid fa-message orkut-font-default"></i>
-          <a href="#" class="orkut-link">Scraps</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/profile/profile.css" />
+    <link rel="stylesheet" href="./styles/profile/profile-responsive.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/8b55e05e5f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Orkut - Profile | Bruno Dórea</title>
+    <!-- GOOGLE ANALYTICS -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TJQ2XJZPTD"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-TJQ2XJZPTD");
+    </script>
+  </head>
+  <body>
+    <header class="menu orkut-button-bg">
+      <nav>
+        <div id="title">
+          <h1>orkut</h1>
         </div>
-        <div class="photo__tools__editar">
-          <i class="fa-solid fa-pen orkut-font-default"></i>
-          <a href="#" class="orkut-link">Editar</a>
+        <div id="hamburguer">
+          <label for="">&#9776;</label>
         </div>
-        <div class="photo__tools__gallery">
-          <i class="fa-solid fa-camera orkut-font-default"></i>
-          <a href="#" class="orkut-link">Albuns</a>
+      </nav>
+    </header>
+    <main class="container">
+      <aside class="photo">
+        <div class="photo__avatar">
+          <img
+            src="./images/avatar.jpg"
+            alt="avatar"
+            srcset=""
+            height="250px"
+            width="250px"
+          />
         </div>
-        <div class="photo__tools__depositions">
-          <i class="fa-solid fa-sun orkut-font-default"></i>
-          <a href="#" class="orkut-link">Depoimentos</a>
+        <div class="photo__name">
+          <h1 class="orkut-font-color">Bruno Henrique</h1>
         </div>
-      </div>
-    </aside>
+        <div class="photo__tools">
+          <div class="photo__tools__messages">
+            <i class="fa-solid fa-message orkut-font-default"></i>
+            <a href="#" class="orkut-link">Scraps</a>
+          </div>
+          <div class="photo__tools__editar">
+            <i class="fa-solid fa-pen orkut-font-default"></i>
+            <a href="#" class="orkut-link">Editar</a>
+          </div>
+          <div class="photo__tools__gallery">
+            <i class="fa-solid fa-camera orkut-font-default"></i>
+            <a href="#" class="orkut-link">Albuns</a>
+          </div>
+          <div class="photo__tools__depositions">
+            <i class="fa-solid fa-sun orkut-font-default"></i>
+            <a href="#" class="orkut-link">Depoimentos</a>
+          </div>
+        </div>
+      </aside>
 
-    <section class="description"></section>
+      <section class="description"></section>
 
-    <aside class="counter">
-      <div class="counter__friend"></div>
-      <div class="counter__community"></div>
-    </aside>
-  </main>
-</body>
+      <aside class="counter">
+        <div class="counter__friend"></div>
+        <div class="counter__community"></div>
+      </aside>
+    </main>
+  </body>
 </html>
